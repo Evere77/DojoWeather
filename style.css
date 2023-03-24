@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*utilities*/
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.justify-content {
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+header {
+    background-color: #9fc5f8;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.title {
+    padding: 20px;
+    border-bottom: 3px solid black;
+    font-weight: ligh;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main {
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.high {
+    color: #cf2a27;
+}
+
+.low {
+    color: #2b78e4;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 100%;
+    padding: 30px;
+}
+
+footer {
+    background-color: #eeeeee;
+}
+
+.cookie-policy {
+    border: 2px solid black;
+}
+
+.btn {
+    background-color: #9fc5f8;
+    box-shadow: 2px 2px black;
+    padding: 3px 10px;
+    width: 20%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.readMore {
+    color: #085394;
+    text-decoration: underline; 
+}
+
+.high::after, .low::after {
+    content: "°";
+}
